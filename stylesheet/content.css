@@ -1,0 +1,79 @@
+body {
+  /* background: url(../img/Desktop1920.svg) no-repeat; */
+  width: 1920px;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.logoblock {
+    position: relative;
+width: 331px;
+height: 113px;
+left: 112px;
+background: #EDF8FF;
+border-radius: 40px;
+}
+
+.imglogo {
+    position: relative;
+  padding: 44px 80px 44px 80px;
+}
+
+.block1 {
+    position: relative;
+width: 636px;
+height: 113px;
+left: 809px;
+right: 112px;
+background: #EDF8FF;
+border-radius: 40px;
+}
+
+.p1 {
+    position: relative;
+width: 476px;
+height: 33px;
+padding: 40px 80px 40px 80px;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #313F86;
+}
+
+.container1 {
+  margin-top: 60px;
+  display: flex;
+}
+
+h1 {
+  position: relative;
+left: 112px;
+top: 55px;
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+color: #EDF8FF;
+}
+
+.containeranimation1 {
+  top: 80px;
+}
+
+.div1 {
+position: relative;
+width: 793px;
+height: 153px;
+left: 112px;
+background: #EDF8FF;
+border-radius: 50px;
+}
