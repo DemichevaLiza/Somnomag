@@ -7,14 +7,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
-  /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
 }
 
 .logoblock {
-    position: relative;
+position: relative;
 width: 331px;
 height: 113px;
 left: 112px;
@@ -28,7 +26,7 @@ border-radius: 40px;
 }
 
 .block1 {
-    position: relative;
+position: relative;
 width: 636px;
 height: 113px;
 left: 809px;
@@ -37,8 +35,34 @@ background: #EDF8FF;
 border-radius: 40px;
 }
 
+.container1 {
+  margin-top: 60px;
+  display: flex;
+}
+
+h1 {
+  position: relative;
+  left: 112px;
+  top: 55px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  color: #EDF8FF;
+}
+
+h2 {
+  width: 59px;
+  padding: 40px 654px 0px 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #313F86;
+
+}
+
 .p1 {
-    position: relative;
 width: 476px;
 height: 33px;
 padding: 40px 80px 40px 80px;
@@ -49,31 +73,53 @@ font-size: 24px;
 color: #313F86;
 }
 
-.container1 {
-  margin-top: 60px;
+.p2 {
+  width: 633px;
+  padding: 5px 80px 50px 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #313F86;
+}
+
+.div1{
+  margin-top: 130px;
+  margin-left: 112px;
   display: flex;
+  justify-content: space-between;
 }
 
-h1 {
-  position: relative;
-left: 112px;
-top: 55px;
-font-family: Comfortaa;
-font-style: normal;
-font-weight: normal;
-font-size: 80px;
-color: #EDF8FF;
+.plashkaanima {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.containeranimation1 {
-  top: 80px;
-}
-
-.div1 {
+.plashka1{
 position: relative;
 width: 793px;
 height: 153px;
-left: 112px;
 background: #EDF8FF;
 border-radius: 50px;
+}
+
+.anima1 {
+position: relative;
+width: 396px;
+height: 274px;
+top: 20px;
+background: #313F86;
+border: 2px solid #EDF8FF;
+box-sizing: border-box;
+border-radius: 60px;
+}
+
+.mashroom {
+width: 290px;
+height: 177px;
+left: 53px;
+top: 49px;
+display: block;
+background: url ('../img/mashroom.svg');
 }
