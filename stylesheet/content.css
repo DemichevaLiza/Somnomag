@@ -1,6 +1,6 @@
 
 #bg {
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
   min-width: 100%;
@@ -8,27 +8,27 @@
 }
 
 .logoblock {
-position: relative;
-width: 331px;
-height: 113px;
-left: 112px;
-background: #EDF8FF;
-border-radius: 40px;
+  position: relative;
+  width: 331px;
+  height: 113px;
+  left: 112px;
+  background: #EDF8FF;
+  border-radius: 40px;
 }
 
 .imglogo {
     position: relative;
-  padding: 44px 80px 44px 80px;
+    padding: 44px 80px 44px 80px;
 }
 
 .block1 {
-position: relative;
-width: 636px;
-height: 113px;
-left: 809px;
-right: 112px;
-background: #EDF8FF;
-border-radius: 40px;
+  position: relative;
+  width: 636px;
+  height: 113px;
+  left: 809px;
+  right: 112px;
+  background: #EDF8FF;
+  border-radius: 40px;
 }
 
 .container1 {
@@ -59,29 +59,61 @@ h2 {
 }
 
 .p1 {
-width: 476px;
-height: 33px;
-padding: 40px 80px 40px 80px;
-font-family: Manrope;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-color: #313F86;
-}
-
-.p2 {
-  width: 633px;
-  padding: 5px 80px 50px 80px;
+  width: 476px;
+  height: 33px;
+  padding: 47px 80px 40px 80px;
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 33px;
+  color: #313F86;
+}
+
+.p2 {
+  width: 633px;
+  padding: 14px 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p3 {
+  width: 716px;
+  padding: 14px 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p4 {
+  width: 556px;
+  padding: 14px 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
   color: #313F86;
 }
 
 .div1{
   margin-top: 130px;
+  margin-left: 112px;
+  display: flex;
+}
+
+.div2{
+  margin-top: 20px;
+  margin-left: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div3 {
+  margin-top: 20px;
   margin-left: 112px;
   display: flex;
 }
@@ -92,130 +124,189 @@ color: #313F86;
 }
 
 .plashka1{
-position: relative;
-width: 793px;
-height: 153px;
-background: #EDF8FF;
-border-radius: 50px;
+  position: relative;
+  width: 793px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka2{
+  position: relative;
+  width: 716px;
+  height: 153px;
+  margin-top: 100px;
+  margin-left: 112px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka3 {
+  position: relative;
+  width: 686px;
+  height: 153px;
+  margin-left: 112px;
+  margin-top: 100px;
+  background: #EDF8FF;
+  border-radius: 50px;
 }
 
 .anima1 {
-position: relative;
-width: 396px;
-height: 274px;
-top: 20px;
-background: #313F86;
-border: 2px solid #EDF8FF;
-box-sizing: border-box;
-border-radius: 60px;
+  position: relative;
+  width: 396px;
+  height: 274px;
+  top: 20px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
 }
 
 .mashroom {
-width: 290px;
-height: 177px;
-margin-left: 53px;
-margin-top: 49px;
-display: block;
-background: url('../img/mashroom.svg');
+  background: url('../img/mashroom.svg');
+  width: 290px;
+  height: 177px;
+  margin-left: 53px;
+  margin-top: 49px;
+  display: block;
 }
 
-.stars{
-  display: flex;
+.frame {
   position: relative;
-  width: 700px;
-  height: 550px;
-  margin-left: 190px;
-}
-.star1 {
-width: 85px;
-height: 85px;
-left: 20px;
-top: 13px;
-display: block;
-background: url('../img/star 1.svg');
-animation: star1 8s linear infinite;
+  overflow: hidden;
+  width: 1280px;
+  height: 568px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
 }
 
-@keyframes star1 {
-0% {transform: rotate(0deg) scale(0.8);}
-50% {transform: rotate(35deg) scale(1);}
-100% {transform: rotate(0deg) scale(0.8);}
+.bear {
+  background: url('../img/bear.svg');
+  width: 153px;
+  height: 92px;
+  position: relative;
+  display: block;
+  animation: walk 2s steps(1)  infinite;
 }
 
-
-.star2 {
-width: 72px;
-height: 72px;
-margin-top: 437px;
-display: block;
-background: url('../img/star 2.svg');
-animation: star2 8s linear infinite;
+.path{
+  width: 153px;
+  height: 92px;
+  display: block;
+  position: absolute;
+  top: 300px;
+  animation: path 15s linear infinite;
 }
 
-@keyframes star2 {
-0% {transform: rotate(0deg) scale(1);}
-50% {transform: rotate(-50deg) scale(1.3);}
-100% {transform: rotate(0deg) scale(1);}
+@keyframes path {
+  0%{left: -306px; top; transform: scale(3);}
+  25%{left: 20%; top: 300px;}
+  50%{left: 50%; top: 300px;}
+  100%{left: 120%;transform: scale(3);}
 }
 
-.star3 {
-width: 69px;
-height: 62px;
-margin-left: 80px;
-margin-top: 105px;
-display: block;
-background: url('../img/star 3.svg');
-animation: star3 8s linear infinite;
+@keyframes walk {
+  0%{background-position:   0px 0px; transform: scale(1);}
+  5%{background-position:  -153px 0px;}
+  11% {background-position:  -306px 0px;}
+  16% {background-position:  -459px 0px;}
+
+  21% {background-position:   0px -92px;}
+  28% {background-position:  -153px -92px;}
+  34% {background-position:  -306px -92px;}
+  40% {background-position:  -459px -92px;}
+
+  46%{background-position:   0px -184px;}
+  52%{background-position:  -153px -184px;}
+  60% {background-position:  -306px -184px;}
+  65% {background-position:  -459px -184px;}
+
+  70% {background-position:   0px -276px;}
+  75% {background-position:  -153px -276px;}
+  80% {background-position:  -306px -276px;}
+  85% {background-position:  -459px -276px;}
+
+  90% {background-position:  0px -368px;}
+  95% {background-position:  -153px -368px;}
+  100% {background-position:  -306px -368px;}
 }
 
-@keyframes star3 {
-0% {transform:rotate(0deg);}
-100% {transform:rotate(360deg);}
+.adventure {
+  display: flex;
+  flex-flow: column;
+  margin-right: 112px;
 }
 
-.star4 {
-width: 65px;
-height: 63px;
-margin-left: 75px;
-margin-top: 275px;
-display: block;
-background: url('../img/star 4.svg');
-animation: star4 30s linear infinite;
+.bobricplashka {
+  position: relative;
+  width: 396px;
+  height: 274px;
+  margin-left: 20px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
 }
 
-@keyframes star4 {
-0% {transform:rotate(0deg) scale(1);}
-50% {transform:rotate(-180deg) scale(1.5);}
-100% {transform:rotate(-360deg) scale(1);}
+.bobric {
+  background: url('../img/bobric.svg');
+  width: 248px;
+  height: 236px;
+  position: relative;
+  margin-left: 54px;
+  margin-top: 24px;
 }
 
-.star5 {
-width: 88px;
-height: 98px;
-margin-left: 108px;
-margin-top: 458px;
-display: block;
-background: url('../img/star 5.svg');
-animation: star5 10s linear infinite;
+.goldcaseplashka {
+  position: relative;
+  width: 396px;
+  height: 274px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
 }
 
-@keyframes star5 {
-0% {transform: rotate(0deg);}
-50% {transform: rotate(35deg);}
-100% {transform: rotate(0deg);}
+.goldcase {
+  background: url('../img/case.svg');
+  width: 241px;
+  height: 169px;
+  position: relative;
+  margin-left: 77px;
+  margin-top: 60px;
 }
 
-.star6 {
-width: 39px;
-height: 40px;
-margin-top: 22px;
-display: block;
-background: url('../img/star 6.svg');
-animation: star6 5s linear infinite;
+.water {
+  display: flex;
+  flex-flow: column;
 }
 
+.plashkaballs {
+  position: relative;
+  width: 396px;
+  height: 274px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
+}
 
-@keyframes star6 {
-0% {transform: rotate(0deg) scale(1);}
-50% {transform: rotate(50deg) scale(2);}
-100% {transform: rotate(0deg) scale(1);}
+.plashkaplant {
+  position: relative;
+  margin-top: 20px;
+  width: 396px;
+  height: 274px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
+}
+
+.fishes {
+  position: relative;
+  overflow: hidden;
+  width: 1280px;
+  height: 568px;
+  margin-left: 20px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
+}
