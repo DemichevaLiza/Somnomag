@@ -310,3 +310,44 @@ h2 {
   border: 2px solid #EDF8FF;
   border-radius: 50px;
 }
+
+.fish1 {
+  position: relative;
+  display: block;
+  width: 192px;
+  height: 126px;
+  background: url('../img/fish1.svg');
+  margin-top: 300px;
+  animation: walkfish 2s steps(1) infinite;
+}
+
+
+@keyframes walkfish {
+  0%{background-position:   0px 0px; transform: scale(2);}
+  5%{background-position:  -192px 0px;}
+  10% {background-position:  -384px 0px;}
+  15% {background-position:  -576px 0px;}
+
+  20%{background-position:   0px -126px;}
+  24%{background-position:  -192px -126px;}
+  28% {background-position:  -384px -126px;}
+  30% {background-position:  -576px -126px;}
+
+  35%{background-position:   0px -252px;}
+  40%{background-position:  -192px -252px;}
+  45% {background-position:  -384px -252px;}
+  50% {background-position:  -576px -252px;}
+
+  55%{background-position:   0px -378px;}
+  60%{background-position:  -192px -378px;}
+  65% {background-position:  -384px -378px;}
+  70% {background-position:  -576px -378px;}
+
+  75%{background-position:   0px -504px;}
+  80%{background-position:  -192px -504px;}
+  85% {background-position:  -384px -504px;}
+  90% {background-position:  -576px -504px;}
+
+  95%{background-position:   0px -630px;}
+  100%{background-position:  -192px -630px;}
+}
