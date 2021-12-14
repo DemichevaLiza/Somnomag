@@ -133,7 +133,7 @@
 }
 
 .star8 {
-  background: url('../img/Star8.svg');
+  background: url('../img/star8.svg');
   width: 67px;
   height: 66px;
   margin-left: 29px;
@@ -149,8 +149,8 @@
 }
 
 .star9 {
-  background: url('../img/Star9.svg');
-  width: 67px;
+  background: url('../img/star9.svg');
+  width: 69px;
   height: 66px;
   margin-left: 71px;
   margin-top: 238px;
@@ -198,8 +198,8 @@
 
 .star12 {
   background: url('../img/star12.svg');
-  width: 111px;
-  height: 104px;
+  width: 112px;
+  height: 106px;
   margin-top: 27px;
   margin-left:11px
   display: block;
