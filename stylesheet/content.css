@@ -1,3 +1,4 @@
+
 #bg {
   position:absolute;
   top: 0;
@@ -481,7 +482,7 @@ h2 {
 .plant {
   background: url('../img/plant.svg');
   width: 400px;
-  height: 260px;
+  height: 265px;
   position: relative;
   margin-top: 20px;
   animation: plant 2s steps(1) infinite;
@@ -517,4 +518,17 @@ h2 {
   88%{background-position:  -400px -1325px;}
   95%{background-position:   -800px -1325px;}
   100%{background-position:  -1200px -1325px;}
+}
+
+.divgnom {
+  display: flex;
+  flex-flow: column;
+}
+
+.plashka4 {
+  position: relative;
+  width: 762px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
 }
