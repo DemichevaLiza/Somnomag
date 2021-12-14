@@ -22,6 +22,14 @@
   height: 680px;
 }
 
+.stars4{
+  display: flex;
+  position: relative;
+  width: 850px;
+  height: 680px;
+  margin-right: 112px;
+}
+
 .star1 {
   background: url('../img/star1.svg');
   width: 85px;
@@ -33,9 +41,9 @@
 }
 
 @keyframes star1 {
-  0% {transform: rotate(0deg) scale(0.8);}
-  50% {transform: rotate(35deg) scale(1);}
-  100% {transform: rotate(0deg) scale(0.8);}
+  0% {transform: rotate(0deg) scale(80%);}
+  50% {transform: rotate(35deg) scale(100%);}
+  100% {transform: rotate(0deg) scale(80%);}
 }
 
 
@@ -49,9 +57,9 @@
 }
 
 @keyframes star2 {
-  0% {transform: rotate(0deg) scale(1);}
-  50% {transform: rotate(-50deg) scale(1.3);}
-  100% {transform: rotate(0deg) scale(1);}
+  0% {transform: rotate(0deg) scale(100%);}
+  50% {transform: rotate(-50deg) scale(130%);}
+  100% {transform: rotate(0deg) scale(100%);}
 }
 
 .star3 {
@@ -80,9 +88,9 @@
 }
 
 @keyframes star4 {
-  0% {transform:rotate(0deg) scale(1);}
-  50% {transform:rotate(-180deg) scale(1.5);}
-  100% {transform:rotate(-360deg) scale(1);}
+  0% {transform:rotate(0deg) scale(100%);}
+  50% {transform:rotate(-180deg) scale(150%);}
+  100% {transform:rotate(-360deg) scale(100%);}
 }
 
 .star5 {
@@ -112,14 +120,14 @@
 
 
 @keyframes star6 {
-  0% {transform: rotate(0deg) scale(1);}
-  50% {transform: rotate(50deg) scale(2);}
-  100% {transform: rotate(0deg) scale(1);}
+  0% {transform: rotate(0deg) scale(100%);}
+  50% {transform: rotate(50deg) scale(200%);}
+  100% {transform: rotate(0deg) scale(100%);}
 }
 
 .star7 {
   background: url('../img/star7.svg');
-  width: 68px;
+  width: 69px;
   height: 62px;
   margin-top: 273px;
   display: block;
@@ -127,14 +135,14 @@
 }
 
 @keyframes star7 {
-  0% {transform: rotate(0deg) scale(1);}
-  50% {transform: rotate(180deg) scale(1.2);}
-  100% {transform: rotate(360deg) scale(1);}
+  0% {transform: rotate(0deg) scale(100%);}
+  50% {transform: rotate(180deg) scale(120%);}
+  100% {transform: rotate(360deg) scale(100%);}
 }
 
 .star8 {
   background: url('../img/star8.svg');
-  width: 67px;
+  width: 68px;
   height: 66px;
   margin-left: 29px;
   margin-top: 53px;
@@ -143,15 +151,15 @@
 }
 
 @keyframes star8 {
-  0% {transform: rotate(0deg) scale(1);}
-  50% {transform: rotate(-180deg) scale(1.3);}
-  100% {transform: rotate(-360deg) scale(1);}
+  0% {transform: rotate(0deg) scale(100%);}
+  50% {transform: rotate(-180deg) scale(130%);}
+  100% {transform: rotate(-360deg) scale(100%);}
 }
 
 .star9 {
   background: url('../img/star9.svg');
   width: 69px;
-  height: 66px;
+  height: 67px;
   margin-left: 71px;
   margin-top: 238px;
   display: block;
@@ -223,9 +231,9 @@
 }
 
 @keyframes star13 {
-  0% {transform: rotate(0deg) scale(1);}
-  50% {transform: rotate(180deg) scale(1.2);}
-  100% {transform: rotate(360deg) scale(1);}
+  0% {transform: rotate(0deg) scale(100%);}
+  50% {transform: rotate(180deg) scale(120%);}
+  100% {transform: rotate(360deg) scale(100%);}
 }
 
 .star14 {
@@ -255,9 +263,9 @@
 }
 
 @keyframes star15 {
-  0% {transform: rotate(0deg) scale(0.5);}
-  50% {transform: rotate(90deg)scale(1.2);}
-  100% {transform: rotate(0deg)scale(0.5);}
+  0% {transform: rotate(0deg) scale(50%);}
+  50% {transform: rotate(90deg)scale(120%);}
+  100% {transform: rotate(0deg)scale(50%);}
 }
 
 .star16 {
@@ -355,4 +363,77 @@ animation: star19 10s linear infinite;}
   height: 49px;
   display: block;
   animation: star25 10s linear infinite;
+}
+
+.star26{
+  background: url('../img/star26.svg');
+  width: 45px;
+  height: 44px;
+  margin-top: 155px;
+  display: block;
+  animation: star26 10s linear infinite;
+}
+
+.star27{
+  background: url('../img/star27.svg');
+  width: 124px;
+  height: 114px;
+  margin-top: 567px;
+  display: block;
+  animation: star27 10s linear infinite;
+}
+
+.star28{
+  background: url('../img/star28.svg');
+  width: 54px;
+  height: 57px;
+  margin-top: 242px;
+  margin-left: 100px;
+  display: block;
+  animation: star28 10s linear infinite;
+}
+
+.star29{
+  background: url('../img/star29.svg');
+  width: 63px;
+  height: 60px;
+  margin-top: 587px;
+  display: block;
+  animation: star29 10s linear infinite;
+}
+
+.star30{
+  background: url('../img/star30.svg');
+  width: 70px;
+  height: 74px;
+  display: block;
+  animation: star28 10s linear infinite;
+}
+
+.star31{
+  background: url('../img/star31.svg');
+  width: 47px;
+  height: 47px;
+  margin-top: 515px;
+  margin-left: 195px;
+  display: block;
+  animation: star29 10s linear infinite;
+}
+
+.star32{
+  background: url('../img/star32.svg');
+  width: 106.5px;
+  height: 108px;
+  margin-top: 160px;
+  display: block;
+  animation: star29 10s linear infinite;
+}
+
+.star33{
+  background: url('../img/star33.svg');
+  width: 48px;
+  height: 50px;
+  margin-top: 587px;
+  display: block;
+  animation: star29 10s linear infinite;
 }

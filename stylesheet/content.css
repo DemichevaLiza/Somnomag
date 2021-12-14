@@ -102,8 +102,76 @@ h2 {
   color: #313F86;
 }
 
+
+
 .p5 {
   width: 602px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p5 {
+  width: 600px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p6 {
+  width: 600px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p7 {
+  width: 600px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p8 {
+  width: 721px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p9 {
+  width: 759px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
+.p10 {
+  width: 671px;
   margin-top: 14px;
   margin-left: 80px;
   font-family: Manrope;
@@ -139,6 +207,20 @@ h2 {
   justify-content: space-between;
 }
 
+.div5 {
+  margin-top: 100px;
+  margin-left: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div6 {
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 150px;
+}
+
+
 .plashkaanima {
   display: flex;
   justify-content: flex-start;
@@ -171,6 +253,56 @@ h2 {
   background: #EDF8FF;
   border-radius: 50px;
 }
+
+.plashka4 {
+  position: relative;
+  width: 762px;
+  height: 153px;
+  margin-right: 112px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka5 {
+  position: relative;
+  width: 762px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka6 {
+  position: relative;
+  width: 724px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka7 {
+  position: relative;
+  width: 881px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka8 {
+  position: relative;
+  width: 919px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
+.plashka9 {
+  position: relative;
+  width: 831px;
+  height: 153px;
+  background: #EDF8FF;
+  border-radius: 50px;
+}
+
 
 .anima1 {
   position: relative;
@@ -220,14 +352,14 @@ h2 {
 }
 
 @keyframes path {
-  0%{left: -306px; top; transform: scale(3);}
+  0%{left: -306px; top; transform: scale(300%);}
   25%{left: 20%; top: 300px;}
   50%{left: 50%; top: 300px;}
-  100%{left: 120%;transform: scale(3);}
+  100%{left: 120%;transform: scale(300%);}
 }
 
 @keyframes walk {
-  0%{background-position:   0px 0px; transform: scale(1);}
+  0%{background-position:   0px 0px; transform: scale(100%);}
   5%{background-position:  -153px 0px;}
   11% {background-position:  -306px 0px;}
   16% {background-position:  -459px 0px;}
@@ -383,9 +515,9 @@ h2 {
 }
 
 @keyframes pathfish {
-  0%{left: -306px; top: 150px; transform: scale(2);}
+  0%{left: -306px; top: 150px; transform: scale(200%);}
   50%{left: 500px; top: 390px;}
-  100%{left: 1250px; top: 300px;transform: scale(1.5);}
+  100%{left: 1250px; top: 300px;transform: scale(150%);}
 }
 
 .fish2 {
@@ -437,9 +569,9 @@ h2 {
 }
 
 @keyframes pathfish2 {
-  0%{left: 1250px; top: 20px; transform: scale(1);}
+  0%{left: 1250px; top: 20px; transform: scale(100%);}
   50%{left: 250px; top: 100px;}
-  100%{left: -500px; top: 350px;transform: scale(3);}
+  100%{left: -500px; top: 350px;transform: scale(300%);}
 }
 
 .ball1 {
@@ -452,10 +584,10 @@ h2 {
 }
 
 @keyframes ball1 {
-  0% {left: 80px; top: 250px; transform: scale(0.1);}
-  25% {left: 70px; top: 100px; transform: scale(0.5);}
+  0% {left: 80px; top: 250px; transform: scale(10%);}
+  25% {left: 70px; top: 100px; transform: scale(50%);}
   50% {left: 90px; top: 40px;}
-  100% {left: 80px; top: -130px; transform: scale(1);}
+  100% {left: 80px; top: -130px; transform: scale(100%);}
 }
 
 .ball2 {
@@ -468,9 +600,9 @@ h2 {
 }
 
 @keyframes ball2 {
-  0% {left: 160px; top: 400px; transform: scale(0.1);}
-  50% {left: 150px; top: 150px; transform: scale(0.5);}
-  100% {left: 160px; top: -130px; transform: scale(1);}
+  0% {left: 160px; top: 400px; transform: scale(10%);}
+  50% {left: 150px; top: 150px; transform: scale(50%);}
+  100% {left: 160px; top: -130px; transform: scale(100%);}
 }
 
 .ball3 {
@@ -484,10 +616,10 @@ h2 {
 }
 
 @keyframes ball3 {
-  0% {left: 270px; top: 250px; transform: scale(1);}
+  0% {left: 270px; top: 250px; transform: scale(100%);}
   25% {left: 280px; top: 100px;}
   50% {left: 265px; top: 40px;}
-  100% {left: 270px; top: -160px; transform: scale(1.5);}
+  100% {left: 270px; top: -160px; transform: scale(150%);}
 }
 
 .plant {
@@ -536,14 +668,6 @@ h2 {
   flex-flow: column;
 }
 
-.plashka4 {
-  position: relative;
-  width: 762px;
-  height: 153px;
-  margin-right: 112px;
-  background: #EDF8FF;
-  border-radius: 50px;
-}
 
 .plashkagnom {
   position: relative;
@@ -563,4 +687,41 @@ h2 {
   height: 318px;
   margin-left: 28px;
   margin-top: 38px;
+}
+
+.divbird {
+  position: relative;
+  width: 274px;
+  height: 396px;
+  margin-top: 20px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.plashkabird {
+  display: flex;
+  flex-flow: column;
+}
+
+.bird {
+  background: url('../img/bird.svg');
+  width: 400px;
+  height: 260px;
+  transform: scale(120%);
+  margin-top: 65px;
+  margin-left: -55px;
+}
+
+.plashkaanimatext {
+  position: absolute;
+  animation: text 15s linear infinite;
+  display: flex;
+}
+
+@keyframes text {
+  0% {left: 0px;}
+  50% {left: -1435px;}
+  100% {left: 0px;}
 }
