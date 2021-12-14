@@ -479,7 +479,7 @@ h2 {
 .plant {
   background: url('../img/plant.svg');
   width: 400px;
-  height: 264px;
+  height: 260px;
   position: relative;
   margin-top: 20px;
   animation: plant 2s steps(1) infinite;

@@ -284,9 +284,35 @@
   animation: star17 10s linear infinite;
 }
 
-.star18{}
-.star19{}
-.star20{}
+.star18{
+  background: url('../img/star 18.svg');
+  width: 123px;
+  height: 112px;
+  margin-top: 35px;
+  margin-left: 2px;
+  display: block;
+  animation: star18 10s linear infinite;
+}
+
+.star19{
+background: url('../img/star 19.svg');
+width: 54px;
+height: 56px;
+margin-top: 477px;
+margin-left: 2px;
+display: block;
+animation: star19 10s linear infinite;}
+
+.star20{
+  background: url('../img/star 20.svg');
+  width: 62px;
+  height: 59px;
+  margin-top: 134px;
+  margin-left: 118px;
+  display: block;
+  animation: star20 10s linear infinite;
+}
+
 .star21{}
 .star22{}
 .star23{}
