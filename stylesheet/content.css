@@ -102,6 +102,17 @@ h2 {
   color: #313F86;
 }
 
+.p5 {
+  width: 602px;
+  margin-top: 14px;
+  margin-left: 80px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #313F86;
+}
+
 .div1{
   margin-top: 130px;
   margin-left: 112px;
@@ -373,7 +384,7 @@ h2 {
 
 @keyframes pathfish {
   0%{left: -306px; top: 150px; transform: scale(2);}
-  50%{left: 500px; top: 400px;}
+  50%{left: 500px; top: 390px;}
   100%{left: 1250px; top: 300px;transform: scale(1.5);}
 }
 
@@ -529,6 +540,27 @@ h2 {
   position: relative;
   width: 762px;
   height: 153px;
+  margin-right: 112px;
   background: #EDF8FF;
   border-radius: 50px;
+}
+
+.plashkagnom {
+  position: relative;
+  width: 274px;
+  height: 396px;
+  margin-top: 20px;
+  margin-left: 488px;
+  background: #313F86;
+  border: 2px solid #EDF8FF;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.gnom {
+  background: url('../img/gnom.svg');
+  width: 204px;
+  height: 318px;
+  margin-left: 28px;
+  margin-top: 38px;
 }
