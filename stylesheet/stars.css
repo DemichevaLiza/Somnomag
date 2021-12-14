@@ -15,6 +15,13 @@
   margin-top: 60px;
 }
 
+.stars3 {
+  display: flex;
+  position: relative;
+  width: 830px;
+  height: 680px;
+}
+
 .star1 {
   background: url('../img/star 1.svg');
   width: 85px;
@@ -268,3 +275,19 @@
   50% {transform: rotate(180deg);}
   100% {transform: rotate(360deg);}
 }
+.star17{
+  background: url('../img/star 17.svg');
+  width: 37px;
+  height: 39px;
+  margin-top: 593px;
+  display: block;
+  animation: star17 10s linear infinite;
+}
+
+.star18{}
+.star19{}
+.star20{}
+.star21{}
+.star22{}
+.star23{}
+.star24{}

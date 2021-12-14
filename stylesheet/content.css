@@ -3,7 +3,7 @@
   position:absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 1920px;
   min-height: 100%;
 }
 
@@ -116,6 +116,13 @@ h2 {
   margin-top: 20px;
   margin-left: 112px;
   display: flex;
+}
+
+.div4{
+  margin-top: 108px;
+  margin-left: 112px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .plashkaanima {
@@ -288,6 +295,7 @@ h2 {
   background: #313F86;
   border: 2px solid #EDF8FF;
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .plashkaplant {
@@ -298,6 +306,7 @@ h2 {
   background: #313F86;
   border: 2px solid #EDF8FF;
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .fishes {
@@ -317,13 +326,12 @@ h2 {
   width: 192px;
   height: 126px;
   background: url('../img/fish1.svg');
-  margin-top: 300px;
   animation: walkfish 2s steps(1) infinite;
 }
 
 
 @keyframes walkfish {
-  0%{background-position:   0px 0px; transform: scale(2);}
+  0%{background-position:   0px 0px;}
   5%{background-position:  -192px 0px;}
   10% {background-position:  -384px 0px;}
   15% {background-position:  -576px 0px;}
@@ -350,4 +358,161 @@ h2 {
 
   95%{background-position:   0px -630px;}
   100%{background-position:  -192px -630px;}
+}
+
+.pathfish{
+  width: 192px;
+  height: 126px;
+  display: block;
+  position: absolute;
+  animation: pathfish 20s linear infinite;
+}
+
+@keyframes pathfish {
+  0%{left: -306px; top: 150px; transform: scale(2);}
+  50%{left: 500px; top: 400px;}
+  100%{left: 1250px; top: 300px;transform: scale(1.5);}
+}
+
+.fish2 {
+  position: relative;
+  display: block;
+  width: 192px;
+  height: 126px;
+  background: url('../img/fish2.svg');
+  animation: walkfish2 2s steps(1) infinite;
+}
+
+
+@keyframes walkfish2 {
+  0%{background-position:   0px 0px;}
+  5%{background-position:  -192px 0px;}
+  10% {background-position:  -384px 0px;}
+  15% {background-position:  -576px 0px;}
+
+  20%{background-position:   0px -126px;}
+  24%{background-position:  -192px -126px;}
+  28% {background-position:  -384px -126px;}
+  30% {background-position:  -576px -126px;}
+
+  35%{background-position:   0px -252px;}
+  40%{background-position:  -192px -252px;}
+  45% {background-position:  -384px -252px;}
+  50% {background-position:  -576px -252px;}
+
+  55%{background-position:   0px -378px;}
+  60%{background-position:  -192px -378px;}
+  65% {background-position:  -384px -378px;}
+  70% {background-position:  -576px -378px;}
+
+  75%{background-position:   0px -504px;}
+  80%{background-position:  -192px -504px;}
+  85% {background-position:  -384px -504px;}
+  90% {background-position:  -576px -504px;}
+
+  95%{background-position:   0px -630px;}
+  100%{background-position:  -192px -630px;}
+}
+
+.pathfish2{
+  width: 192px;
+  height: 126px;
+  display: block;
+  position: absolute;
+  animation: pathfish2 20s linear infinite;
+}
+
+@keyframes pathfish2 {
+  0%{left: 1250px; top: 20px; transform: scale(1);}
+  50%{left: 250px; top: 100px;}
+  100%{left: -500px; top: 350px;transform: scale(3);}
+}
+
+.ball1 {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border: 3px solid #EDF8FF;
+  border-radius: 100px;
+  animation: ball1 15s linear infinite;
+}
+
+@keyframes ball1 {
+  0% {left: 80px; top: 250px; transform: scale(0.1);}
+  25% {left: 70px; top: 100px; transform: scale(0.5);}
+  50% {left: 90px; top: 40px;}
+  100% {left: 80px; top: -130px; transform: scale(1);}
+}
+
+.ball2 {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border: 3px solid #EDF8FF;
+  border-radius: 100px;
+  animation: ball2 12s linear infinite;
+}
+
+@keyframes ball2 {
+  0% {left: 160px; top: 400px; transform: scale(0.1);}
+  50% {left: 150px; top: 150px; transform: scale(0.5);}
+  100% {left: 160px; top: -130px; transform: scale(1);}
+}
+
+.ball3 {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 3px solid #EDF8FF;
+  background: #EDF7FE;
+  border-radius: 100px;
+  animation: ball3 10s linear infinite;
+}
+
+@keyframes ball3 {
+  0% {left: 270px; top: 250px; transform: scale(1);}
+  25% {left: 280px; top: 100px;}
+  50% {left: 265px; top: 40px;}
+  100% {left: 270px; top: -160px; transform: scale(1.5);}
+}
+
+.plant {
+  background: url('../img/plant.svg');
+  width: 400px;
+  height: 265px;
+  position: relative;
+  margin-top: 20px;
+  animation: plant 2s steps(1) infinite;
+}
+
+@keyframes plant {
+  0%{background-position:   0px 0px;}
+  4%{background-position:  -400px 0px;}
+  8% {background-position:  -800px 0px;}
+  12% {background-position:  -1200px 0px;}
+
+  16%{background-position:   0px -265px;}
+  20%{background-position:  -400px -265px;}
+  24% {background-position:  -800px -265px;}
+  28% {background-position:  -1200px -265px;}
+
+  32%{background-position:   0px -530px;}
+  36%{background-position:  -400px -530px;}
+  40% {background-position:  -800px -530px;}
+  44% {background-position:  -1200px -530px;}
+
+  48%{background-position:   0px -795px;}
+  52%{background-position:  -400px -795px;}
+  56% {background-position:  -800px -795px;}
+  60% {background-position:  -1200px -795px;}
+
+  64%{background-position:   0px -1060px;}
+  68%{background-position:  -400px -1060px;}
+  72% {background-position:  -800px -1060px;}
+  78% {background-position:  -1200px -1060px;}
+
+  84%{background-position:   0px -1325px;}
+  88%{background-position:  -400px -1325px;}
+  95%{background-position:   -800px -1325px;}
+  100%{background-position:  -1200px -1325px;}
 }
