@@ -339,6 +339,7 @@ h2 {
   height: 92px;
   position: relative;
   display: block;
+  transform: scale(300%);
   animation: walk 2s steps(1)  infinite;
 }
 
@@ -352,14 +353,14 @@ h2 {
 }
 
 @keyframes path {
-  0%{left: -306px; top; transform: scale(300%);}
+  0%{left: -306px; top;}
   25%{left: 20%; top: 300px;}
   50%{left: 50%; top: 300px;}
-  100%{left: 120%;transform: scale(300%);}
+  100%{left: 120%;}
 }
 
 @keyframes walk {
-  0%{background-position:   0px 0px; transform: scale(100%);}
+  0%{background-position:   0px 0px;}
   5%{background-position:  -153px 0px;}
   11% {background-position:  -306px 0px;}
   16% {background-position:  -459px 0px;}
