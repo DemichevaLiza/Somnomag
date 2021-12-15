@@ -398,15 +398,49 @@ h2 {
   background: #313F86;
   border: 2px solid #EDF8FF;
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .bobric {
   background: url('../img/bobric.svg');
-  width: 248px;
-  height: 236px;
+  width: 400px;
+  height: 265px;
   position: relative;
-  margin-left: 54px;
-  margin-top: 24px;
+  margin-left: -12px;
+  margin-top: 7px;
+  animation: bobric 2s steps(1) infinite;
+}
+
+@keyframes bobric {
+  0%{background-position:   0px 0px;}
+  4%{background-position:  -400px 0px;}
+  8% {background-position:  -800px 0px;}
+  12% {background-position:  -1200px 0px;}
+
+  16%{background-position:   0px -265px;}
+  20%{background-position:  -400px -265px;}
+  24% {background-position:  -800px -265px;}
+  28% {background-position:  -1200px -265px;}
+
+  32%{background-position:   0px -530px;}
+  36%{background-position:  -400px -530px;}
+  40% {background-position:  -800px -530px;}
+  44% {background-position:  -1200px -530px;}
+
+  48%{background-position:   0px -795px;}
+  52%{background-position:  -400px -795px;}
+  56% {background-position:  -800px -795px;}
+  60% {background-position:  -1200px -795px;}
+
+  64%{background-position:   0px -1060px;}
+  68%{background-position:  -400px -1060px;}
+  72% {background-position:  -800px -1060px;}
+  78% {background-position:  -1200px -1060px;}
+
+  84%{background-position:   0px -1325px;}
+  88%{background-position:  -400px -1325px;}
+  95%{background-position:   -800px -1325px;}
+  100%{background-position:  -1200px -1325px;}
 }
 
 .goldcaseplashka {
@@ -683,11 +717,46 @@ h2 {
 
 .gnom {
   background: url('../img/gnom.svg');
-  width: 204px;
-  height: 318px;
-  margin-left: 28px;
-  margin-top: 38px;
+  width: 400px;
+  height: 265px;
+  margin-left: -60px;
+  margin-top: 60px;
+  transform: scale(120%);
+  animation: gnom 2s steps(1) infinite;
 }
+
+@keyframes gnom {
+  0%{background-position:   0px 0px;}
+  4%{background-position:  -400px 0px;}
+  8% {background-position:  -800px 0px;}
+  12% {background-position:  -1200px 0px;}
+
+  16%{background-position:   0px -265px;}
+  20%{background-position:  -400px -265px;}
+  24% {background-position:  -800px -265px;}
+  28% {background-position:  -1200px -265px;}
+
+  32%{background-position:   0px -530px;}
+  36%{background-position:  -400px -530px;}
+  40% {background-position:  -800px -530px;}
+  44% {background-position:  -1200px -530px;}
+
+  48%{background-position:   0px -795px;}
+  52%{background-position:  -400px -795px;}
+  56% {background-position:  -800px -795px;}
+  60% {background-position:  -1200px -795px;}
+
+  64%{background-position:   0px -1060px;}
+  68%{background-position:  -400px -1060px;}
+  72% {background-position:  -800px -1060px;}
+  78% {background-position:  -1200px -1060px;}
+
+  84%{background-position:   0px -1325px;}
+  88%{background-position:  -400px -1325px;}
+  95%{background-position:   -800px -1325px;}
+  100%{background-position:  -1200px -1325px;}
+}
+
 
 .divbird {
   position: relative;
