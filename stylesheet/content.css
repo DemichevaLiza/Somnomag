@@ -215,9 +215,11 @@ h2 {
 }
 
 .div6 {
-  overflow-x: hidden;
-  width: 100%;
-  margin-top: 150px;
+  overflow: hidden;
+width: 100%;
+margin-top: 150px;
+position: relative;
+height: 160px;
 }
 
 
