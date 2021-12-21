@@ -35,6 +35,7 @@
 .container1 {
   margin-top: 60px;
   display: flex;
+  width: 100%;
 }
 
 h1 {
@@ -245,35 +246,33 @@ color: #EDF8FF;
 
 .main1{
   margin-top: 130px;
-  margin-left: 112px;
   display: flex;
+  width: 100%;
 }
 
 .main2{
   margin-top: 20px;
-  margin-left: 112px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .main3 {
   margin-top: 20px;
-  margin-left: 112px;
   display: flex;
+  width: 100%;
 }
 
 .main4{
   margin-top: 108px;
-  margin-left: 112px;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
 .main5 {
   margin-top: 100px;
-  margin-left: 112px;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
 .main6 {
@@ -287,7 +286,7 @@ color: #EDF8FF;
 .mainfuter {
   margin-top: 180px;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
 .futer {
@@ -302,6 +301,15 @@ color: #EDF8FF;
 .plashkaanima {
   display: flex;
   justify-content: flex-start;
+}
+
+.plashkaanima1 {
+  margin-left: 112px;
+  flex-flow: column;
+}
+
+.framebear {
+   margin-left: 112px;
 }
 
 .plashka1{
@@ -336,7 +344,6 @@ color: #EDF8FF;
   position: relative;
   width: 762px;
   height: 153px;
-  margin-right: 112px;
   background: #EDF8FF;
   border-radius: 50px;
 }
@@ -545,6 +552,7 @@ color: #EDF8FF;
 .water {
   display: flex;
   flex-flow: column;
+  margin-left: 112px;
 }
 
 .plashkaballs {
@@ -567,6 +575,8 @@ color: #EDF8FF;
   border-radius: 50px;
   overflow: hidden;
 }
+
+
 
 .fishes {
   position: relative;
@@ -779,6 +789,7 @@ color: #EDF8FF;
 .divgnom {
   display: flex;
   flex-flow: column;
+  margin-left: 120px;
 }
 
 
@@ -851,6 +862,7 @@ color: #EDF8FF;
 .plashkabird {
   display: flex;
   flex-flow: column;
+  margin-left: 112px;
 }
 
 .bird {
