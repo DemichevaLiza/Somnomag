@@ -1,8 +1,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone */
   .linesncircles {
-      margin-top: -150px;
-      height: 8944px;
+      margin-top: -63px;
+      height: 4845px;
       width: 100%;
   }
 
@@ -107,7 +107,7 @@
   }
 
   .container1 {
-      margin-top: 120px;
+      margin-top: 60px;
       flex-flow: column;
   }
 
@@ -144,7 +144,7 @@
   h1 {
       width: 359px;
       left: 30px;
-      top: 30px;
+      top: 56px;
       font-size: 36px;
   }
 
@@ -274,10 +274,12 @@
 }
 
 .stars2 {
-    margin-left: -323px;
-    transform: scale(60%);
+    margin-left: -415px;
+    transform: scale(50%);
     margin-top: -40px;
 }
+
+
 
 .plashka3 {
     width: 285px;
@@ -303,16 +305,273 @@
   }
 
 
-.main4 {
-    margin-top: 108px;
-    flex-direction: column;
-    width: 100%;
+  .main4 {
+      margin-top: 108px;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .stars3 {
+    margin-left: -200px;
+    top: -135px;
+    transform: scale(45%);
+    width: 830px;
+    height: 327px;
+}
+
+.divgnom {
+    margin-left: 72px;
+}
+
+.plashka4 {
+    width: 322px;
+    height: 131px;
+    border-radius: 20px;
+}
+
+.p5 {
+    width: 291px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.plashkagnom {
+    width: 136px;
+    height: 182px;
+    margin-top: 10px;
+    margin-left: 187px;
+    border-radius: 20px;
+}
+
+.gnom {
+    margin-left: -131px;
+    margin-top: -37px;
+    transform: scale(50%);
 }
 
 .main5 {
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     flex-flow: column;
     width: 100%;
-
 }
+
+@keyframes pathfish2 {
+  0% {
+    left: 293px;
+    top: -18px;
+    transform: scale(50%);
+}
+50% {
+    left: 155px;
+    top: 11px;
+}
+100% {
+    left: -216px;
+    top: 121px;
+    transform: scale(80%);
+}
+}
+
+@keyframes pathfish {
+  0% {
+    left: -170px;
+    top: -34px;
+    transform: scale(80%);
+}
+
+50% {
+    left: 337px;
+    top: 162px;
+}
+100% {
+    left: 563px;
+    top: 45px;
+    transform: scale(50%);
+}
+}
+
+.fishes {
+    width: 374px;
+    height: 213px;
+    margin-left: 20px;
+    border-radius: 20px;
+  }
+
+  .water {
+      flex-flow: row;
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+  .plashkaballs {
+    width: 182px;
+    height: 136px;
+    border-radius: 20px;
+}
+
+.plashkaplant {
+    margin-top: 0px;
+    width: 182px;
+    left: 10px;
+    height: 135px;
+    border-radius: 20px;
+}
+
+.plant {
+    transform: scale(50%);
+    margin-top: -57px;
+    left: -110px;
+}
+
+  @keyframes ball1 {
+    0% {
+       left: 80px;
+       top: 119px;
+       transform: scale(10%);
+   }
+   25% {
+       left: 40px;
+       top: 100px;
+       transform: scale(30%);
+   }
+   50% {
+       left: 76px;
+       top: 40px;
+   }
+   100% {
+       left: 68px;
+       top: -130px;
+       transform: scale(50%);
+   }
+  }
+
+  .stars4 {
+      transform: scale(45%);
+      margin-left: -222px;
+      top: -138px;
+  }
+
+  .plashkabird {
+    margin-left: 20px;
+}
+
+.bird {
+    transform: scale(55%);
+    margin-top: -41px;
+    margin-left: -129px;
+}
+
+.divbird {
+    width: 136px;
+    height: 182px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+.p6 {
+    width: 319px;
+    margin-top: 5px;
+    margin-left: 30px;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.plashka5 {
+    width: 323px;
+    height: 131px;
+    border-radius: 20px;
+}
+
+.plashkabird {
+    margin-left: 20px;
+}
+
+.stars3 {
+    margin-left: -200px;
+    top: -135px;
+    transform: scale(45%);
+    width: 830px;
+    height: 327px;
+}
+
+.plashka6 {
+  width: 305px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka7 {
+  width: 391px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka8 {
+  width: 374px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka9 {
+  width: 361px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.p7 {
+  width: 245px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p8 {
+  width: 314px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p9 {
+  width: 331px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p10 {
+  width: 301px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+@keyframes text {
+  0% {left: 0px;}
+  100% {left: -1431px;}
+}
+
+.main6 {
+    margin-top: -112px;
+}
+
+.mainfuter {
+    flex-flow: wrap;
+}
+
+.futer {
+    margin-top: 10px;
+  }
