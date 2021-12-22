@@ -1,55 +1,299 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone */
   .linesncircles {
-    margin-top: -150px;
-    height: 8944px;
+      margin-top: -150px;
+      height: 8944px;
+      width: 100%;
+  }
+
+  .star1 {
+    animation-play-state: running;
+  }
+  .star2 {
+    animation-play-state: running;
+  }
+  .star3 {
+    animation-play-state: running;
+  }
+  .star4 {
+    animation-play-state: running;
+  }
+  .star5 {
+    animation-play-state: running;
+  }
+  .star6 {
+    animation-play-state: running;
+  }
+  .star7 {
+    animation-play-state: running;
+  }
+  .star8 {
+    animation-play-state: running;
+  }
+  .star9 {
+    animation-play-state: running;
+  }
+  .star10 {
+    animation-play-state: running;
+  }
+  .star11 {
+    animation-play-state: running;
+  }
+  .star12 {
+    animation-play-state: running;
+  }
+  .star13 {
+    animation-play-state: running;
+  }
+  .star14 {
+    animation-play-state: running;
+  }
+  .star15 {
+    animation-play-state: running;
+  }
+  .star16 {
+    animation-play-state: running;
+  }
+  .star17 {
+    animation-play-state: running;
+  }
+  .star18 {
+    animation-play-state: running;
+  }
+  .star19 {
+    animation-play-state: running;
+  }
+  .star20 {
+    animation-play-state: running;
+  }
+  .star21 {
+    animation-play-state: running;
+  }
+  .star22 {
+    animation-play-state: running;
+  }
+  .star23 {
+    animation-play-state: running;
+  }
+  .star24 {
+    animation-play-state: running;
+  }
+  .star25 {
+    animation-play-state: running;
+  }
+  .star26 {
+    animation-play-state: running;
+  }
+  .star27 {
+    animation-play-state: running;
+  }
+  .star28 {
+    animation-play-state: running;
+  }
+  .star29 {
+    animation-play-state: running;
+  }
+  .star30 {
+    animation-play-state: running;
+  }
+  .star31 {
+    animation-play-state: running;
+  }
+  .star32 {
+    animation-play-state: running;
+  }
+  .star33 {
+    animation-play-state: running;
   }
 
   .container1 {
-    margin-top: 120px;
-    flex-flow: column;
+      margin-top: 120px;
+      flex-flow: column;
   }
 
   .logoblock {
-    width: 566px;
-    height: 127px;
-    left: 30px;
-    border-radius: 44px;
-}
+      width: 173px;
+      height: 70px;
+      left: 30px;
+      border-radius: 15px;
+  }
+
   .imglogo {
-    transform: scale(180%);
-    position: relative;
-    padding: 50px 152px 43px 181px;
+      transform: scale(90%);
+      position: relative;
+      padding: 17px 34px 151px 0px;
   }
 
   .block1 {
-    width: 783px;
-    height: 226px;
-    left: 820px;
-    right: 0px;
-    border-radius: 40px;
-}
-
-.p1 {
-    width: 565px;
-    height: 33px;
-    padding: 58px 0px 0px 112px;
-    font-size: 54px;
-}
-
-
-h1 {
-    width: 1065px;
-    left: 30px;
-    top: 85px;
-    font-size: 100px;
-    color: #EDF8FF;
-}
-
-.main1 {
-    margin-top: 190px;
-    flex-flow: column;
+      width: 259px;
+      height: 94px;
+      left: 135px;
+      top: 10px;
+      border-radius: 19px;
   }
+
+  .p1 {
+      width: 208px;
+      height: 32px;
+      padding: 20px 0px 0px 26px;
+      line-height: 27px;
+      font-size: 20px;
+  }
+
+
+  h1 {
+      width: 359px;
+      left: 30px;
+      top: 30px;
+      font-size: 36px;
+  }
+
+  h2 {
+      width: 59px;
+      padding: 20px 0px 0px 30px;
+      font-size: 16px;
+  }
+
+  .main1 {
+      margin-top: 107px;
+      flex-flow: column;
+  }
+
+  .plashkaanima1 {
+    margin-left: 20px;
+    flex-flow: column;
+    margin-top: 0px;
+}
+
+.plashka1 {
+    width: 360px;
+    height: 128px;
+    border-radius: 20px;
+}
+
+.p2 {
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .anima1 {
+      width: 182px;
+      height: 136px;
+      top: 10px;
+      border-radius: 20px;
+  }
+
+  .mashroom {
+    margin-left: -51px;
+    margin-top: -19px;
+    transform: scale(50%);
+}
+
+.stars {
+    margin-left: -143px;
+    margin-top: -52px;
+    transform: scale(50%);
+}
+
+.plashka2 {
+    width: 303px;
+    height: 130px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.p3 {
+    width: 268px;
+    padding: 5px 30px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.main2 {
+    margin-top: 20px;
+    flex-flow: column;
+    width: 100%;
+}
+
+.framebear {
+    margin-left: 20px;
+}
+
+.frame {
+    width: 374px;
+    height: 213px;
+    border-radius: 20px;
+}
+
+.path {
+    width: 153px;
+    height: 92px;
+    top: 90px;
+    animation: path 10s linear infinite;
+}
+
+.bear {
+    transform: scale(120%);
+  }
+
+  .adventure {
+      flex-flow: row;
+      margin-top: 10px;
+      margin-right: 0px;
+  }
+
+  .bobricplashka {
+      width: 182px;
+      height: 136px;
+      margin-left: 20px;
+      border-radius: 20px;
+  }
+
+  .bobric {
+    margin-left: -120px;
+    margin-top: -61px;
+    transform: scale(50%);
+}
+
+  .goldcaseplashka {
+    width: 182px;
+    height: 135px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.goldcase {
+    transform: scale(50%);
+    margin-left: -29px;
+    margin-top: -13px;
+}
+
+.stars2 {
+    margin-left: -323px;
+    transform: scale(60%);
+    margin-top: -40px;
+}
+
+.plashka3 {
+    width: 285px;
+    height: 131px;
+    margin-left: 20px;
+    margin-top: -75px;
+    border-radius: 20px;
+}
+
+.p4 {
+    width: 231px;
+    margin-top: 5px;
+    line-height: 27px;
+    margin-left: 30px;
+    font-size: 20px;
+}
 
 .main3 {
     margin-top: 20px;
@@ -58,12 +302,6 @@ h1 {
     width: 100%;
   }
 
-  .main2 {
-    margin-top: 20px;
-    flex-flow: column;
-    justify-content: space-between;
-    width: 100%;
-}
 
 .main4 {
     margin-top: 108px;
