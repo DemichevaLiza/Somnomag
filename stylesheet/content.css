@@ -173,7 +173,7 @@ body{
   position: absolute;
   width: 4387px;
   height: 5065px;
-  left: -1705px;
+  left: -1574px;
   top: -613px;
   border: 1px solid #EDF8FF;
   border-radius: 100%;
@@ -426,7 +426,6 @@ color: #EDF8FF;
 .main2{
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
