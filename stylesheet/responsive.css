@@ -1,4 +1,656 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 1224px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+  .linesncircles {
+      margin-top: -63px;
+      height: 4845px;
+      width: 100%;
+  }
+
+  .star1 {
+    animation-play-state: running;
+  }
+  .star2 {
+    animation-play-state: running;
+  }
+  .star3 {
+    animation-play-state: running;
+  }
+  .star4 {
+    animation-play-state: running;
+  }
+  .star5 {
+    animation-play-state: running;
+  }
+  .star6 {
+    animation-play-state: running;
+  }
+  .star7 {
+    animation-play-state: running;
+  }
+  .star8 {
+    animation-play-state: running;
+  }
+  .star9 {
+    animation-play-state: running;
+  }
+  .star10 {
+    animation-play-state: running;
+  }
+  .star11 {
+    animation-play-state: running;
+  }
+  .star12 {
+    animation-play-state: running;
+  }
+  .star13 {
+    animation-play-state: running;
+  }
+  .star14 {
+    animation-play-state: running;
+  }
+  .star15 {
+    animation-play-state: running;
+  }
+  .star16 {
+    animation-play-state: running;
+  }
+  .star17 {
+    animation-play-state: running;
+  }
+  .star18 {
+    animation-play-state: running;
+  }
+  .star19 {
+    animation-play-state: running;
+  }
+  .star20 {
+    animation-play-state: running;
+  }
+  .star21 {
+    animation-play-state: running;
+  }
+  .star22 {
+    animation-play-state: running;
+  }
+  .star23 {
+    animation-play-state: running;
+  }
+  .star24 {
+    animation-play-state: running;
+  }
+  .star25 {
+    animation-play-state: running;
+  }
+  .star26 {
+    animation-play-state: running;
+  }
+  .star27 {
+    animation-play-state: running;
+  }
+  .star28 {
+    animation-play-state: running;
+  }
+  .star29 {
+    animation-play-state: running;
+  }
+  .star30 {
+    animation-play-state: running;
+  }
+  .star31 {
+    animation-play-state: running;
+  }
+  .star32 {
+    animation-play-state: running;
+  }
+  .star33 {
+    animation-play-state: running;
+  }
+
+  .container1 {
+      margin-top: 60px;
+      flex-flow: column;
+  }
+
+  .logoblock {
+      width: 173px;
+      height: 70px;
+      left: 30px;
+      border-radius: 15px;
+  }
+
+  .imglogo {
+      transform: scale(90%);
+      position: relative;
+      padding: 17px 34px 151px 0px;
+  }
+
+  .block1 {
+      width: 259px;
+      height: 94px;
+      left: 135px;
+      top: 10px;
+      border-radius: 19px;
+  }
+
+  .p1 {
+      width: 208px;
+      height: 32px;
+      padding: 20px 0px 0px 26px;
+      line-height: 27px;
+      font-size: 20px;
+  }
+
+
+  h1 {
+      width: 359px;
+      left: 30px;
+      top: 56px;
+      font-size: 36px;
+  }
+
+  h2 {
+      width: 59px;
+      padding: 20px 0px 0px 30px;
+      font-size: 16px;
+  }
+
+  .main1 {
+      margin-top: 107px;
+      flex-flow: column;
+  }
+
+  .plashkaanima1 {
+    margin-left: 20px;
+    flex-flow: column;
+    margin-top: 0px;
+}
+
+.plashka1 {
+    width: 360px;
+    height: 128px;
+    border-radius: 20px;
+}
+
+.p2 {
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .anima1 {
+      width: 182px;
+      height: 136px;
+      top: 10px;
+      border-radius: 20px;
+  }
+
+  .mashroom {
+    margin-left: -51px;
+    margin-top: -19px;
+    transform: scale(50%);
+}
+
+.stars {
+    margin-left: -143px;
+    margin-top: -52px;
+    transform: scale(50%);
+}
+
+.plashka2 {
+    width: 303px;
+    height: 130px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.p3 {
+    width: 268px;
+    padding: 5px 30px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.main2 {
+    margin-top: 10px;
+    flex-flow: column;
+    width: 100%;
+}
+
+.framebear {
+    margin-left: 20px;
+}
+
+.frame {
+    width: 374px;
+    height: 213px;
+    border-radius: 20px;
+}
+
+.path {
+    width: 153px;
+    height: 92px;
+    top: 90px;
+    animation: path 10s linear infinite;
+}
+
+.bear {
+    transform: scale(120%);
+  }
+
+  .adventure {
+      flex-flow: row;
+      margin-top: 10px;
+      margin-right: 0px;
+  }
+
+  .bobricplashka {
+      width: 182px;
+      height: 136px;
+      margin-left: 20px;
+      border-radius: 20px;
+  }
+
+  .bobric {
+    margin-left: -120px;
+    margin-top: -61px;
+    transform: scale(50%);
+}
+
+  .goldcaseplashka {
+    width: 182px;
+    height: 135px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.goldcase {
+    transform: scale(50%);
+    margin-left: -29px;
+    margin-top: -13px;
+}
+
+.stars2 {
+    margin-left: -415px;
+    transform: scale(50%);
+    margin-top: -40px;
+}
+
+
+
+.plashka3 {
+    width: 285px;
+    height: 131px;
+    margin-left: 20px;
+    margin-top: -75px;
+    border-radius: 20px;
+}
+
+.p4 {
+    width: 231px;
+    margin-top: 5px;
+    line-height: 27px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.main3 {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 100%;
+  }
+
+
+  .main4 {
+      margin-top: 108px;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .stars3 {
+    margin-left: -200px;
+    top: -135px;
+    transform: scale(45%);
+    width: 830px;
+    height: 327px;
+}
+
+.divgnom {
+    margin-left: 72px;
+}
+
+.plashka4 {
+    width: 322px;
+    height: 131px;
+    border-radius: 20px;
+}
+
+.p5 {
+    width: 291px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.plashkagnom {
+    width: 136px;
+    height: 182px;
+    margin-top: 10px;
+    margin-left: 187px;
+    border-radius: 20px;
+}
+
+.gnom {
+    margin-left: -131px;
+    margin-top: -37px;
+    transform: scale(50%);
+}
+
+.main5 {
+    margin-top: 60px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+@keyframes pathfish2 {
+  0% {
+    left: 293px;
+    top: -18px;
+    transform: scale(50%);
+}
+50% {
+    left: 155px;
+    top: 11px;
+}
+100% {
+    left: -216px;
+    top: 121px;
+    transform: scale(80%);
+}
+}
+
+@keyframes pathfish {
+  0% {
+    left: -170px;
+    top: -34px;
+    transform: scale(80%);
+}
+
+50% {
+    left: 337px;
+    top: 162px;
+}
+100% {
+    left: 563px;
+    top: 45px;
+    transform: scale(50%);
+}
+}
+
+.fishes {
+    width: 374px;
+    height: 213px;
+    margin-left: 20px;
+    border-radius: 20px;
+  }
+
+  .water {
+      flex-flow: row;
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+  .plashkaballs {
+    width: 182px;
+    height: 136px;
+    border-radius: 20px;
+}
+
+.plashkaplant {
+    margin-top: 0px;
+    width: 182px;
+    left: 10px;
+    height: 135px;
+    border-radius: 20px;
+}
+
+.plant {
+    transform: scale(50%);
+    margin-top: -57px;
+    left: -110px;
+}
+
+  @keyframes ball1 {
+    0% {
+       left: 80px;
+       top: 119px;
+       transform: scale(10%);
+   }
+   25% {
+       left: 40px;
+       top: 100px;
+       transform: scale(30%);
+   }
+   50% {
+       left: 76px;
+       top: 40px;
+   }
+   100% {
+       left: 68px;
+       top: -130px;
+       transform: scale(50%);
+   }
+  }
+
+  .stars4 {
+      transform: scale(45%);
+      margin-left: -222px;
+      top: -138px;
+  }
+
+  .plashkabird {
+    margin-left: 20px;
+}
+
+.bird {
+    transform: scale(55%);
+    margin-top: -41px;
+    margin-left: -129px;
+}
+
+.divbird {
+    width: 136px;
+    height: 182px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+.p6 {
+    width: 319px;
+    margin-top: 5px;
+    margin-left: 30px;
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.plashka5 {
+    width: 323px;
+    height: 131px;
+    border-radius: 20px;
+}
+
+.plashkabird {
+    margin-left: 20px;
+}
+
+.stars3 {
+    margin-left: -200px;
+    top: -135px;
+    transform: scale(45%);
+    width: 830px;
+    height: 327px;
+}
+
+.plashka6 {
+  width: 305px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka7 {
+  width: 391px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka8 {
+  width: 374px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.plashka9 {
+  width: 361px;
+  height: 131px;
+  border-radius: 20px;
+}
+
+.p7 {
+  width: 245px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p8 {
+  width: 314px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p9 {
+  width: 331px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.p10 {
+  width: 301px;
+  height: 54px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+@keyframes text {
+  0% {left: 0px;}
+  100% {left: -1431px;}
+}
+
+.main6 {
+    margin-top: -112px;
+}
+
+.mainfuter {
+    flex-flow: wrap;
+}
+
+.futer {
+    margin-top: 10px;
+  }
+
+@keyframes ball3 {
+  0% {
+    left: 0px;
+    top: 20px;
+    transform: scale(10%);
+}
+25% {
+    left: 40px;
+    top: 50px;
+}
+50% {
+    left: 5px;
+    top: -50px;
+}
+100% {
+    left: 10px;
+    top: -160px;
+    transform: scale(40%);
+}
+}
+
+@keyframes ball2 {
+  0% {
+    left: 10px;
+    top: 100px;
+    transform: scale(10%);
+}
+
+50% {
+    left: 50px;
+    top: 0px;
+    transform: scale(30%);
+}
+100% {
+    left: 160px;
+    top: -100px;
+    transform: scale(50%);
+}
+}
+
+.plashkaanima {
+  animation: text 30s linear infinite;
+  animation-play-state: running;
+}
+
+.plashkaanimatext:hover{
+  animation-play-state:running;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
   /* iPhone */
   .linesncircles {
       margin-top: -63px;
@@ -575,3 +1227,53 @@
 .futer {
     margin-top: 10px;
   }
+
+@keyframes ball3 {
+  0% {
+    left: 0px;
+    top: 20px;
+    transform: scale(10%);
+}
+25% {
+    left: 40px;
+    top: 50px;
+}
+50% {
+    left: 5px;
+    top: -50px;
+}
+100% {
+    left: 10px;
+    top: -160px;
+    transform: scale(40%);
+}
+}
+
+@keyframes ball2 {
+  0% {
+    left: 10px;
+    top: 100px;
+    transform: scale(10%);
+}
+
+50% {
+    left: 50px;
+    top: 0px;
+    transform: scale(30%);
+}
+100% {
+    left: 160px;
+    top: -100px;
+    transform: scale(50%);
+}
+}
+
+.plashkaanima {
+  animation: text 30s linear infinite;
+  animation-play-state: running;
+}
+
+.plashkaanimatext:hover{
+  animation-play-state:running;
+}
+}

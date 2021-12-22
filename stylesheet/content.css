@@ -237,6 +237,7 @@ h2 {
 a {
 text-decoration: none;
 color: #EDF8FF;
+text-decoration-line: underline;
 }
 
 .p1 {
@@ -1057,6 +1058,7 @@ color: #EDF8FF;
 .plashkaanimatext:hover{
   animation-play-state:paused;
 }
+
 @keyframes text {
   0% {left: 0px;}
   100% {left: -3355px;}
