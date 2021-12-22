@@ -1,17 +1,19 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone */
   .linesncircles {
-    margin-top: -120px;
+    margin-top: -150px;
+    height: 8944px;
   }
 
   .container1 {
     margin-top: 120px;
     flex-flow: column;
   }
+
   .logoblock {
     width: 566px;
     height: 127px;
-    left: 112px;
+    left: 30px;
     border-radius: 44px;
 }
   .imglogo {
@@ -34,4 +36,45 @@
     padding: 58px 0px 0px 112px;
     font-size: 54px;
 }
+
+
+h1 {
+    width: 1065px;
+    left: 30px;
+    top: 85px;
+    font-size: 100px;
+    color: #EDF8FF;
+}
+
+.main1 {
+    margin-top: 190px;
+    flex-flow: column;
+  }
+
+.main3 {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 100%;
+  }
+
+  .main2 {
+    margin-top: 20px;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main4 {
+    margin-top: 108px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main5 {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+
 }
